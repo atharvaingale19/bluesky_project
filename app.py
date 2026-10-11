@@ -205,8 +205,8 @@ with tab_results:
 with tab_demo:
     st.subheader("Interactive engagement estimate")
     st.warning(
-        "Demonstration only. This model is trained on the full local dataset and "
-        "does not reproduce the paper's author-disjoint evaluation."
+        "Interactive demonstration. This predictor is trained on the full dataset "
+        "and is separate from the author-disjoint evaluation reported in the paper."
     )
 
     text = st.text_area(
