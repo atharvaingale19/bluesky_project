@@ -1,0 +1,17 @@
+# Local dataset files
+data/feed_posts/
+data/raw/
+data/source/
+
+# Python environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated experiment outputs
+results/*.csv
+results/*.csv.gz
