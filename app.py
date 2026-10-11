@@ -70,6 +70,10 @@ def train_demo_model(df: pd.DataFrame, data_root: str):
 
     vec, X = fit_metadata(df)
 
+    X = X.tocsr()
+    X.indices = X.indices.astype(np.int32, copy=False)
+    X.indptr = X.indptr.astype(np.int32, copy=False)
+
     model = make_regressor()
     model.fit(X, df["y_abs"].to_numpy(dtype=float))
 
