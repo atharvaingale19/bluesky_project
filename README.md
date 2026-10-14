@@ -2,6 +2,10 @@
 
 Research repository for the exploratory study **Beyond Absolute Popularity: Author-Relative Engagement Estimation under Author-Disjoint Evaluation**.
 
+#Live Demo
+
+https://blueskyproject.streamlit.app/
+
 ## Dataset location
 
 The app and experiment now expect the selected thematic-feed files under:
